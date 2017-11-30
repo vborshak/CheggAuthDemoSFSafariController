@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885C065C1FD049F3002A72F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C065B1FD049F3002A72F5 /* AppDelegate.m */; };
+		885C065F1FD049F3002A72F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C065E1FD049F3002A72F5 /* ViewController.m */; };
+		885C06621FD049F3002A72F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885C06601FD049F3002A72F5 /* Main.storyboard */; };
+		885C06641FD049F3002A72F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C06631FD049F3002A72F5 /* Assets.xcassets */; };
+		885C06671FD049F3002A72F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885C06651FD049F3002A72F5 /* LaunchScreen.storyboard */; };
+		885C066A1FD049F3002A72F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C06691FD049F3002A72F5 /* main.m */; };
+		885C06741FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C06731FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.m */; };
+		885C067F1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C067E1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885C06701FD049F3002A72F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C064F1FD049F3002A72F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C06561FD049F3002A72F5;
+			remoteInfo = CheggAuthDemoSFSafariController;
+		};
+		885C067B1FD049F3002A72F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C064F1FD049F3002A72F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C06561FD049F3002A72F5;
+			remoteInfo = CheggAuthDemoSFSafariController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885C06571FD049F3002A72F5 /* CheggAuthDemoSFSafariController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheggAuthDemoSFSafariController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C065A1FD049F3002A72F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		885C065B1FD049F3002A72F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		885C065D1FD049F3002A72F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		885C065E1FD049F3002A72F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		885C06611FD049F3002A72F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885C06631FD049F3002A72F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885C06661FD049F3002A72F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		885C06681FD049F3002A72F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885C06691FD049F3002A72F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885C066F1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheggAuthDemoSFSafariControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C06731FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheggAuthDemoSFSafariControllerTests.m; sourceTree = "<group>"; };
+		885C06751FD049F3002A72F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885C067A1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheggAuthDemoSFSafariControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C067E1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheggAuthDemoSFSafariControllerUITests.m; sourceTree = "<group>"; };
+		885C06801FD049F3002A72F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885C06541FD049F3002A72F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C066C1FD049F3002A72F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C06771FD049F3002A72F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885C064E1FD049F3002A72F5 = {
+			isa = PBXGroup;
+			children = (
+				885C06591FD049F3002A72F5 /* CheggAuthDemoSFSafariController */,
+				885C06721FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests */,
+				885C067D1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests */,
+				885C06581FD049F3002A72F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885C06581FD049F3002A72F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885C06571FD049F3002A72F5 /* CheggAuthDemoSFSafariController.app */,
+				885C066F1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.xctest */,
+				885C067A1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885C06591FD049F3002A72F5 /* CheggAuthDemoSFSafariController */ = {
+			isa = PBXGroup;
+			children = (
+				885C065A1FD049F3002A72F5 /* AppDelegate.h */,
+				885C065B1FD049F3002A72F5 /* AppDelegate.m */,
+				885C065D1FD049F3002A72F5 /* ViewController.h */,
+				885C065E1FD049F3002A72F5 /* ViewController.m */,
+				885C06601FD049F3002A72F5 /* Main.storyboard */,
+				885C06631FD049F3002A72F5 /* Assets.xcassets */,
+				885C06651FD049F3002A72F5 /* LaunchScreen.storyboard */,
+				885C06681FD049F3002A72F5 /* Info.plist */,
+				885C06691FD049F3002A72F5 /* main.m */,
+			);
+			path = CheggAuthDemoSFSafariController;
+			sourceTree = "<group>";
+		};
+		885C06721FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				885C06731FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.m */,
+				885C06751FD049F3002A72F5 /* Info.plist */,
+			);
+			path = CheggAuthDemoSFSafariControllerTests;
+			sourceTree = "<group>";
+		};
+		885C067D1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				885C067E1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.m */,
+				885C06801FD049F3002A72F5 /* Info.plist */,
+			);
+			path = CheggAuthDemoSFSafariControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885C06561FD049F3002A72F5 /* CheggAuthDemoSFSafariController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C06831FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariController" */;
+			buildPhases = (
+				885C06531FD049F3002A72F5 /* Sources */,
+				885C06541FD049F3002A72F5 /* Frameworks */,
+				885C06551FD049F3002A72F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheggAuthDemoSFSafariController;
+			productName = CheggAuthDemoSFSafariController;
+			productReference = 885C06571FD049F3002A72F5 /* CheggAuthDemoSFSafariController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885C066E1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C06861FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariControllerTests" */;
+			buildPhases = (
+				885C066B1FD049F3002A72F5 /* Sources */,
+				885C066C1FD049F3002A72F5 /* Frameworks */,
+				885C066D1FD049F3002A72F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C06711FD049F3002A72F5 /* PBXTargetDependency */,
+			);
+			name = CheggAuthDemoSFSafariControllerTests;
+			productName = CheggAuthDemoSFSafariControllerTests;
+			productReference = 885C066F1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885C06791FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C06891FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariControllerUITests" */;
+			buildPhases = (
+				885C06761FD049F3002A72F5 /* Sources */,
+				885C06771FD049F3002A72F5 /* Frameworks */,
+				885C06781FD049F3002A72F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C067C1FD049F3002A72F5 /* PBXTargetDependency */,
+			);
+			name = CheggAuthDemoSFSafariControllerUITests;
+			productName = CheggAuthDemoSFSafariControllerUITests;
+			productReference = 885C067A1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885C064F1FD049F3002A72F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Victor Borshak";
+				TargetAttributes = {
+					885C06561FD049F3002A72F5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					885C066E1FD049F3002A72F5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 885C06561FD049F3002A72F5;
+					};
+					885C06791FD049F3002A72F5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 885C06561FD049F3002A72F5;
+					};
+				};
+			};
+			buildConfigurationList = 885C06521FD049F3002A72F5 /* Build configuration list for PBXProject "CheggAuthDemoSFSafariController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885C064E1FD049F3002A72F5;
+			productRefGroup = 885C06581FD049F3002A72F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885C06561FD049F3002A72F5 /* CheggAuthDemoSFSafariController */,
+				885C066E1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests */,
+				885C06791FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885C06551FD049F3002A72F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C06671FD049F3002A72F5 /* LaunchScreen.storyboard in Resources */,
+				885C06641FD049F3002A72F5 /* Assets.xcassets in Resources */,
+				885C06621FD049F3002A72F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C066D1FD049F3002A72F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C06781FD049F3002A72F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885C06531FD049F3002A72F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C065F1FD049F3002A72F5 /* ViewController.m in Sources */,
+				885C066A1FD049F3002A72F5 /* main.m in Sources */,
+				885C065C1FD049F3002A72F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C066B1FD049F3002A72F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C06741FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C06761FD049F3002A72F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C067F1FD049F3002A72F5 /* CheggAuthDemoSFSafariControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885C06711FD049F3002A72F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C06561FD049F3002A72F5 /* CheggAuthDemoSFSafariController */;
+			targetProxy = 885C06701FD049F3002A72F5 /* PBXContainerItemProxy */;
+		};
+		885C067C1FD049F3002A72F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C06561FD049F3002A72F5 /* CheggAuthDemoSFSafariController */;
+			targetProxy = 885C067B1FD049F3002A72F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885C06601FD049F3002A72F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885C06611FD049F3002A72F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885C06651FD049F3002A72F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885C06661FD049F3002A72F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885C06811FD049F3002A72F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		885C06821FD049F3002A72F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885C06841FD049F3002A72F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885C06851FD049F3002A72F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		885C06871FD049F3002A72F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheggAuthDemoSFSafariController.app/CheggAuthDemoSFSafariController";
+			};
+			name = Debug;
+		};
+		885C06881FD049F3002A72F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheggAuthDemoSFSafariController.app/CheggAuthDemoSFSafariController";
+			};
+			name = Release;
+		};
+		885C068A1FD049F3002A72F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheggAuthDemoSFSafariController;
+			};
+			name = Debug;
+		};
+		885C068B1FD049F3002A72F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheggAuthDemoSFSafariControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoSFSafariControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheggAuthDemoSFSafariController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885C06521FD049F3002A72F5 /* Build configuration list for PBXProject "CheggAuthDemoSFSafariController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C06811FD049F3002A72F5 /* Debug */,
+				885C06821FD049F3002A72F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C06831FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C06841FD049F3002A72F5 /* Debug */,
+				885C06851FD049F3002A72F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C06861FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C06871FD049F3002A72F5 /* Debug */,
+				885C06881FD049F3002A72F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C06891FD049F3002A72F5 /* Build configuration list for PBXNativeTarget "CheggAuthDemoSFSafariControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C068A1FD049F3002A72F5 /* Debug */,
+				885C068B1FD049F3002A72F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885C064F1FD049F3002A72F5 /* Project object */;
+}
